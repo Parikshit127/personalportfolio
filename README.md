@@ -403,6 +403,53 @@ The project includes `netlify.toml` for easy Netlify deployment:
 
 This project was generated through [Dualite](https://dualite.dev). Feel free to customize and use it for your personal portfolio.
 
+## 🖥️ Local Development
+
+### Quick Start for Local Development
+
+1. **Navigate to your project directory**
+   ```bash
+   cd your-portfolio-folder
+   ```
+
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+   ```bash
+   npm run dev
+   ```
+
+4. **Open your browser**
+   - Navigate to: `http://localhost:5173`
+   - Your portfolio will load with hot reload enabled
+
+### Development Server Features
+
+- **Hot Reload**: Changes automatically refresh in the browser
+- **TypeScript**: Full type checking and IntelliSense
+- **Vite**: Fast build tool and development server
+- **Network Access**: Use `npm run dev -- --host` to access from other devices on your network
+
+### Making Changes
+
+- **Content Updates**: Edit `src/config.ts` for personal information
+- **Styling**: Modify `src/index.css` for colors and fonts
+- **Components**: Update files in `src/components/` directory
+- **Pages**: Modify files in `src/pages/` directory
+- **All changes save automatically** and refresh in the browser
+
+### Development Commands
+
+```bash
+npm run dev          # Start development server
+npm run build        # Build for production
+npm run preview      # Preview production build locally
+npm run lint         # Run ESLint for code quality
+```
+
 ## 🤝 Support
 
 If you need help customizing this portfolio:
